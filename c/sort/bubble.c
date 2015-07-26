@@ -1,10 +1,16 @@
+/*
+ * Bubble sort
+ *
+ * @author  lellansin <lellansin@qq.com>
+ * @website http://www.lellansin.com
+ */
 #include <stdio.h>
 
 /*
  * 冒泡排序
  *
- * 参数1  arr  输入输出参数  要处理的数组
- * 参数2  len  输出参数      要出里的数组长度
+ * @param int[] [in out]  arr  要处理的数组
+ * @param int   [in]      len  要出里的数组长度
  */
 void sort(int arr[], int len)
 {
