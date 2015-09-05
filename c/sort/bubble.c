@@ -10,12 +10,12 @@
  * 冒泡排序
  *
  * @param int[] [in out]  arr  要处理的数组
- * @param int   [in]      len  要出里的数组长度
+ * @param int   [in]      len  要处理的数组长度
  */
 void sort(int arr[], int len)
 {
 	int tmp;
-	int i = len, j;	
+	int i = len, j;
 
 	for ( ; i > 0; i-- )
 	{
